@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toc Toe - Love Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. TELA INICIAL -->
+    <div id="start-screen" class="screen">
+        <div class="content">
+            <p class="pre-title">Let's play</p>
+            <h1>Tic Toc Toe</h1>
+            <p class="subtitle">love challenge</p>
+            <button id="start-button">START</button>
+        </div>
+    </div>
+
+   <!-- 2. TELA DO JOGO (Agora com cabeçalho) -->
+<div id="game-screen" class="screen hide">
+    
+    <!-- NOVO CABEÇALHO ADICIONADO AQUI -->
+    <div id="game-header">
+        <h1>Tic Toc Toe</h1>
+        <p class="subtitle">love challenge</p>
+    </div>
+    <!-- FIM DO NOVO CABEÇALHO -->
+
+    <div id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div id="player-info">
+        <div class="player-card" id="player-you">
+            <img src="" alt="Jogador You">
+            <p>You</p>
+        </div>
+        <div class="player-card" id="player-me">
+            <img src="" alt="Jogador Me">
+            <p>Me</p>
+        </div>
+    </div>
+</div>
+
+    <!-- 3. TELA DE FIM DE JOGO (Com espaço para imagem) -->
+<div id="end-screen" class="screen hide">
+    <div class="message-box">
+        <h2 id="win-message"></h2>
+        <p id="sub-message"></p>
+
+        <!-- IMAGEM DE RESULTADO ADICIONADA AQUI -->
+        <img src="" id="end-screen-image" alt="Resultado do Jogo">
+
+        <button id="restart-button">Play Again</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
