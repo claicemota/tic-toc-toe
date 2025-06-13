@@ -212,6 +212,6 @@ button:hover {
     display: block; /* Garante que é um bloco para o margin: auto funcionar */
     max-height: 150px;
     max-width: 90%;
-    margin: 20px auto; /* MUDANÇA PRINCIPAL AQUI */
+    margin: 20px auto;
     animation: aparecer 0.5s ease-out 0.2s backwards;
 }
