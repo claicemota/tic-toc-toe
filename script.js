@@ -8,7 +8,6 @@ const LOSE_IMAGE_PATH = 'imagens/saranghaeyo.jpg'; // <-- TROQUE PELO SEU ARQUIV
 const TIE_IMAGE_PATH = 'imagens/us.jpg';  // <-- TROQUE PELO SEU ARQUIVO
 
 //  PASSO 2: DEFINA OS NOMES DOS JOGADORES
-
 const PLAYER_YOU_NAME = "You";
 const PLAYER_ME_NAME = "Me";
 
