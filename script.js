@@ -1,6 +1,4 @@
-// =======================================================
 //  PASSO 1: IDENTIFIQUE SUAS IMAGENS AQUI
-// =======================================================
 const YOU_IMAGE_PATH = 'imagens/coração1.png';
 const ME_IMAGE_PATH = 'imagens/coração2.png';
 
@@ -9,13 +7,10 @@ const WIN_IMAGE_PATH = 'imagens/flor.jpg'; // <-- TROQUE PELO SEU ARQUIVO
 const LOSE_IMAGE_PATH = 'imagens/saranghaeyo.jpg'; // <-- TROQUE PELO SEU ARQUIVO
 const TIE_IMAGE_PATH = 'imagens/us.jpg';  // <-- TROQUE PELO SEU ARQUIVO
 
-// =======================================================
 //  PASSO 2: DEFINA OS NOMES DOS JOGADORES
-// =======================================================
+
 const PLAYER_YOU_NAME = "You";
 const PLAYER_ME_NAME = "Me";
-// =======================================================
-
 
 // Seleção dos elementos do HTML
 const startScreen = document.getElementById('start-screen');
@@ -123,11 +118,12 @@ function isDraw() {
     });
 }
 
-// ----- FUNÇÃO ENDGAME ATUALIZADA -----
+// ----- FUNÇÃO ENDGAME -----
 function endGame(draw, winnerName) {
     gameActive = false;
 
     if (draw) {
+        
         // Cenário 1: Empate
         winMessageElement.innerText = "It's a tie!";
         subMessageElement.innerText = "We are a perfect match!";
