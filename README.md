@@ -31,3 +31,5 @@ Empate: "It's a tie! We are a perfect match!"
 🔄 Jogar Novamente: Botão para recomeçar o desafio e continuar a diversão.
 
 📱 Interatividade Total: Telas e modais que respondem às ações do jogador, criando uma experiência fluida.
+##
+🎲 Jogue aqui: https://tictoctoelovec.netlify.app/
