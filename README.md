@@ -2,7 +2,7 @@
 
 💖 Tic Tac Toe - Love Challenge 💖
 
-É um projeto de estudos divertido e fofinho que transforma o clássico Jogo da Velha em um desafio romântico, fiz para o Dia dos Namorados mas podemos usa-lo em qualquer momento divertido com o seu Player2🥰! Desenvolvido com HTML, CSS e JavaScript, este mini-game oferece uma experiência de usuário simples, interativa e cheia de carinho.
+É um projeto de estudos divertido e fofinho que transforma o clássico Jogo da Velha em um desafio romântico, fiz para o Dia dos Namorados mas pode usa-lo em qualquer momento divertido com o seu Player2🥰! Desenvolvido com HTML, CSS e JavaScript, este mini-game oferece uma experiência de usuário simples, interativa e cheia de carinho.
 ##
 ✨ Telas do Jogo
 
